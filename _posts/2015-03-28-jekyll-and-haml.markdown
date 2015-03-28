@@ -56,8 +56,9 @@ task :gitignore do
   outfile = File.new('./.gitignore', 'a')
 
   forall_haml do |path|
-    unless orig_gitignore.include? path[0..-6]
-      outfile.puts path[0..-6]
+    ignore_path = path[2..-6]
+    unless orig_gitignore.include? ignore_path
+      outfile.puts ignore_path
     end
 
     outfile.close

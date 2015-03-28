@@ -16,16 +16,16 @@ end
 # Update gitignore to ignore html files generated from haml files
 task :gitignore do
   orig_gitignore = File.read('./.gitignore')
-  outfile = File.new('./.gitignore', 'a')
+  new_gitignore = File.new('./.gitignore', 'a')
 
   forall_haml do |path|
     ignore_path = path[2..-6]
     unless orig_gitignore.include? ignore_path
-      outfile.puts ignore_path
+      new_gitignore.puts ignore_path
     end
-
-    outfile.close
   end
+
+  new_gitignore.close
 end
 
 # Build the site with jekyll

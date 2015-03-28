@@ -35,6 +35,11 @@ end
 
 def forall_haml
   Find.find('./') do |path|
+    # Exclude vendor
+    if path.start_with? './vendor'
+      Find.prune
+    end
+
     # Only run on files
     if File::file? path
       if /\.html.haml$/.match path

@@ -11,9 +11,10 @@ to find.
 
 If you're using OS X inside Qemu (you can find guides on this online elsewhere),
 you may notice that under most setups, resolution is limited to 1024x768. This
-is terrible for Xcode development and was a major pain for me. When I search
-earlier I found general information about these issues that mentioned patching
-Qemu or changing graphics drivers, so I gave up for a while.
+is terrible for Xcode development and was a major pain for me. When I searched
+for a solution earlier, I only found general information about resolution issues
+in Linux or Windows VMs that mentioned either patching Qemu or changing graphics
+drivers. Neither of these seemed very relevant, so I gave up for a while.
 
 Turns out this is a setting you can change via OS X, just not through the GUI.
 Edit the file `/Extra/org.chameleon.boot.plist`, and either add (or adjust) the

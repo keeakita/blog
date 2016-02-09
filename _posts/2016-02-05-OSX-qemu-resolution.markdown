@@ -23,9 +23,9 @@ file to contain the following:
     <key>Graphics Mode</key>
     <string>1920x1080x32</string>
 
-This should get things up and running at 1080p. I'm not sure if it's relevant,
-but I also have the vmware tools installed and am using `-vga vmware` in my qemu
-options.
+Reboot after making this change. This should get things up and running at 1080p.
+I'm not sure if it's relevant, but I also have the vmware tools installed and am
+using `-vga vmware` in my qemu options.
 
 Fix thanks to Christian Simon in the comment section of [this blog
 post](http://blog.ostanin.org/2014/02/11/playing-with-mac-os-x-on-kvm/) (if you

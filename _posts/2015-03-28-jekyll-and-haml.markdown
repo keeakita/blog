@@ -6,6 +6,13 @@ tags:   tech web jekyll git rake
 categories: tech
 ---
 
+*Update 2016-08-15*: Since I've written this, it looks like the `jekyll-haml` gem
+has seen a bit more love. I'm using it in a templates just fine in this blog and
+have removed most of the stuff in this post. As a hint, be sure to use `haml`
+instead of `include` in your liquid markup.
+
+---
+
 I dislike writing HTML by hand if I can avoid it (opening/closing tags feel very
 verbose). Luckily, there are cool languages like [HAML][haml] that make it a lot
 lighter and faster to write. Unfortunately, it seems that Jekyll doesn't have

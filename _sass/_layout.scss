@@ -234,3 +234,14 @@
         }
     }
 }
+
+.footnotes {
+    font-size: 0.8em;
+    background-color: #eee;
+    padding-top: 0.8em;
+    padding-bottom: 1px; // Changes how the margin of the last <p> is applied
+
+    p {
+        margin-bottom: 0.5em;
+    }
+}

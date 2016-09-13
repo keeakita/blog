@@ -15,7 +15,7 @@ overwhelm the server.
 
 With that being said...
 
-![Moist Announcement]({{ site.baseurl }}/images/moist_announce.jpg)
+![Moist Announcement]({{ site.baseurl }}/images/moist/announce.jpg)
 
 Throughout history, humans have had a fundamental struggle with the forces of
 nature. Battling for comfort has been a human conflict for trillions[^1] of

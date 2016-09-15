@@ -42,6 +42,24 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.linkedin_url %}
+          <li>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_url }}">
+              <span class="icon icon--linkedin">
+                <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="16" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <g transform="translate(-414.44 -455.99)">
+                    <path d="m414.44 457.14c0-0.63283 0.52935-1.1461 1.1824-1.1461h13.635c0.653 0 1.1824 0.51331 1.1824 1.1461v13.708c0 0.63304-0.52937 1.1461-1.1824 1.1461h-13.635c-0.65302 0-1.1824-0.5131-1.1824-1.1461v-13.708z" style="fill:#828282"/>
+                    <path d="m419.29 469.39v-7.2249h-2.4167v7.2249h2.4167zm-1.2083-8.2113c0.84273 0 1.3673-0.55479 1.3673-1.2481-0.0157-0.70893-0.52454-1.2483-1.3513-1.2483-0.82666 0-1.3672 0.5394-1.3672 1.2483 0 0.69333 0.52442 1.2481 1.3354 1.2481h0.0157z" style="fill-rule:evenodd;fill:#ffffff"/>
+                    <path d="m420.62 469.39h2.4166v-4.0347c0-0.21593 0.0157-0.43165 0.0795-0.586 0.1747-0.43144 0.57234-0.87826 1.24-0.87826 0.87447 0 1.2243 0.66254 1.2243 1.6338v3.8652h2.4164v-4.1426c0-2.2192-1.1922-3.2518-2.7822-3.2518-1.3037 0-1.876 0.72412-2.194 1.2173h0.0161v-1.0478h-2.4166c0.0317 0.67794 0 7.2249 0 7.2249z" style="fill-rule:evenodd;fill:#ffffff"/>
+                  </g>
+                </svg>
+              </span>
+
+              <span class="username">{{ site.linkedin_url }}</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 

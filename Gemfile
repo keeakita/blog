@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "jekyll", "~>3.2.1"
+gem "jekyll", "~>4.0.0"
 gem "jekyll-tagging"
 
 gem "haml"
